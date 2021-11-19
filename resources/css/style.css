@@ -1,0 +1,126 @@
+*{
+  font-family: 'Outfit', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* BANNER */
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(229, 226, 226, 0.05);
+}
+
+.trabalho-itens{
+  background-color: rgba(231, 214, 214, 0.192);
+}
+
+.titulo, .titulo-logo{
+  font-size: 5.7vh;
+}
+
+.section-border{
+  border: white solid 3px;
+  padding: 15px;
+}
+/* If the screen size is 600px wide or less*/
+@media screen and (max-width: 600px) {
+  .titulo{
+    font-size: 3.7vh !important;
+  }
+
+  .titulo-logo{
+    font-size: 2.7vh !important;
+  }
+}
+
+.profile-img{
+    height: 17%;
+    width: 17%;
+    max-width: 850px;
+    max-height: 850px;
+    min-width: 170px;
+    min-height: 150px;
+    max-width: 255px;
+    max-height: 255px;
+    border: thick double black;
+}
+
+.banner{
+  background: linear-gradient(to top right, rgba(84, 30, 209, 0.8) 0%, rgba(211, 154, 218, 0.8) 45%, rgba(17, 61, 136, 0.6) 60%); 
+}
+
+.buttons-banner {
+  padding: 0.9em 2em;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: black;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: 32a1ce;
+ }
+ 
+ .buttons-banner::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: black;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .buttons-banner:hover::before {
+  width: 115%;
+ }
+ 
+ .buttons-banner:hover {
+  color: white;
+ }
+
+ .bg-roxo{
+  background: rgba(84, 30, 209, 0.8)
+ }
+
+ .bg-blue{
+   background: rgba(17, 61, 136, 0.6);
+ }
