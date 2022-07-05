@@ -1,0 +1,24 @@
+{
+    "name": "franciscobressa-portfolio",
+    "version": "1.0.0",
+    "description": "This is the project of my new Portfolio",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/franciscobressa/franciscobressa-portfolio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/franciscobressa/franciscobressa-portfolio/issues"
+    },
+    "homepage": "https://github.com/franciscobressa/franciscobressa-portfolio#readme",
+    "dependencies": {
+        "connect": "^3.7.0",
+        "serve-static": "^1.15.0"
+    }
+}

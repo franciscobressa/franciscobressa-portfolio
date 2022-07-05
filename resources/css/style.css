@@ -48,6 +48,10 @@ footer p {
   font-size: 5.7vh;
 }
 
+section {
+    min-height: 100vh;
+}
+
 .section-border{
   border: white solid 3px;
   padding: 15px;
